@@ -1,37 +1,35 @@
 .container {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color:aquamarine;
-    height: 100vh;
-    
+    height: 110vh;
   }
   .charts {
     width: 50%;
     height: 300px;
     margin: 20px;
-    padding: 10px;
   }
   .linecharts{
     background-color: azure;
     border-radius: 10px;
     padding-bottom: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
   }
   .barcharts{
     background-color: azure;
     border-radius: 10px;  
-    margin: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
-  @media only screen and (max-width: 500px) {
+  @media (max-width: 768px) {
     .charts {
-      width: 100%;
+      flex: 1 0 100%;
     }
   }
-  @media only screen and (max-width: 700px) and (min-width:500px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     .charts {
-      width: 70%;
+      flex: 1 0 50%;
     }
   }
-  

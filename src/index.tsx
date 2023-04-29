@@ -6,15 +6,15 @@ import './App.css';
 import './index.css';
 import {createRoot} from 'react-dom/client'
 
-function App1() {
+function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <div className="charts">
       <h1>Wine Data Visualization</h1>
-        <div className='linecharts'>
+        <div className="linecharts">
           <LineChart data={wineData}/>
         </div>
-        <div className='barcharts'>
+        <div className="barcharts">
           <BarChart data={wineData} />
         </div>
       </div>
@@ -23,4 +23,4 @@ function App1() {
 }
 const container = document.getElementById('app')!;
 const root = createRoot(container);
-root.render(<App1/>);
+root.render(<App/>);
