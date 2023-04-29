@@ -45,4 +45,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # manufac
-![alt text](https://github.com/yogeeshry1821/manufac/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/yogeeshry1821/manufac/blob/main/screenshot/image.png?raw=true)
